@@ -2,6 +2,8 @@
 
 Simple quiz game made with react 
 
+You can view it here - https://mysterious-beach-65318.herokuapp.com/
+
 ## Table of Contents
 - [Description](#React-Quiz-App)
 - [Rules](#Rules)
