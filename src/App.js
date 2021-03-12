@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+//importing react & useState
+import React, { useState } from 'react'
+
+//importing css 
 import './App.css';
 
+//importing components
+import Landing from './components/Landing'
+import Quiz from './components/Quiz'
+
+
 function App() {
+  //useState to set state
+  const [start, setStart] = useState(false);
+  
+  //rendering the components with ternary operator
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      { start ? <Quiz /> : <Landing props={setStart} />}
+
     </div>
   );
 }
