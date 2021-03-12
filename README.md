@@ -4,6 +4,7 @@ Simple quiz game made with react
 
 ## Table of Contents
 - [Description](#React-Quiz-App)
+- [Rules](#Rules)
 - [Installation](#Installation)
 - [Usage](#Usage)
 
